@@ -20,7 +20,7 @@ Tutorial de configuração de um projeto TS
 
 4.1 - Criar o escript abaixo no arquivo package.json:
      
-     "dev:server" : "ts-node-dev --respawn --transpile-only <seu index.ts>"
+     "dev:server" : "ts-node-dev --respawn --transpile-only <seu index.ts>" //Substituir pelo seu arquivo TS para transpilação
      
 4.2 - inicializar o projeto com o comando no terminal:
      
