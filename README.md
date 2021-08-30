@@ -17,6 +17,7 @@ Tutorial de configuração de um projeto TS
 3 - Inicializar o arquivo de configuração do TS tsconfig.json com  o comando:
 
      yarn tsc --init
+     tsc --init
      
 *Esta etapa serve para podermos usar o export default nos modulos TS.*
 
