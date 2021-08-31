@@ -1,6 +1,8 @@
 import { Router } from "express";
 const routes = Router();
+import ClientController from './controllers/client';
 
-routes.get('/', async ()=>{});
+routes.get('/', ClientController.getAllClients);
+routes.post('/', ClientController.createNewClient);
 
 export default routes;
