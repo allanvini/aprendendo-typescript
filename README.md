@@ -7,16 +7,19 @@ Tutorial de configuração de um projeto TS
 1 - Inicializar o projeto com Yarn ou NPM:
 
      yarn init -y
+     # Or
      npm init -y
 
 2 - Instalar o Typescript:
 
      yarn add typescript
+     # Or
      npm i typescript
      
 3 - Inicializar o arquivo de configuração do TS tsconfig.json com  o comando:
 
      yarn tsc --init
+     # Or
      tsc --init
      
 *Esta etapa serve para podermos usar o export default nos modulos TS.*
@@ -24,6 +27,7 @@ Tutorial de configuração de um projeto TS
 4 - Instalar uma dependência e os tipos dessa dependência (exemplo, yarn add @types/express -> isso instala os tipos da lib express)
 
      yarn add @types/<some-library>
+     # Or
      npm i @types/<some-library>
 
      
@@ -34,6 +38,7 @@ Tutorial de configuração de um projeto TS
 5 - Configurar um fluxo de desenvolvimento, no caso usamos o ts-node-dev (instalar como dependencia de desenvolvimento)
 
      yarn add ts-node-dev -D
+     # Or
      npm i ts-node-dev -D
 
 5.1 - Criar o escript abaixo no arquivo package.json:
